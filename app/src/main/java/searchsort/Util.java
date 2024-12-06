@@ -33,7 +33,9 @@ public class Util {
      * Exchange the elements at indices i and j in the array arr.
      */
     public static void exch(int[] arr, int i, int j) {
-
+        int temp = i;
+        i = j;
+        j = temp;
     }
 
     /**
