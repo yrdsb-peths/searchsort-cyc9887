@@ -28,8 +28,7 @@ public class Median {
      * Find the median of the array arr using InsertionSort algorithm.
      */
     public double findInsertion(int[] arr) {
-        InsertionSort insertion = new InsertionSort();
-        insertion.sort(arr);
+        InsertionSort.sort(arr);
         return arr[arr.length / 2];
     }
 
