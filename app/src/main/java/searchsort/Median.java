@@ -10,21 +10,27 @@ public class Median {
      * Find the median of the array arr using QuickSort algorithm.
      */
     public double findQuick(int[] arr) {
-        return 0;
+        QuickSort quick = new QuickSort();
+        quick.sort(arr);
+        return arr[arr.length / 2];
     }
 
     /**
      * Find the median of the array arr using MergeSort algorithm.
      */
     public double findMerge(int[] arr) {
-        return 0;
+        MergeSort merge = new MergeSort();
+        merge.sort(arr);
+        return arr[arr.length / 2];
     }
 
     /**
      * Find the median of the array arr using InsertionSort algorithm.
      */
     public double findInsertion(int[] arr) {
-        return 0;
+        InsertionSort insertion = new InsertionSort();
+        insertion.sort(arr);
+        return arr[arr.length / 2];
     }
 
 }
